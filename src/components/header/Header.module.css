@@ -15,15 +15,62 @@
   color: #38bdf8;
 }
 
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav a {
   font-size: 20px;
   margin-left: 40px;
   text-decoration: none;
   color: #f8fafc;
   font-weight: 500;
-  transition: 0.3s;
 }
 
-.nav a:hover {
-  color: #38bdf8;
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+}
+
+/* Mobile + Tablet */
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav {
+    position: absolute;
+    top: 70px;
+    right: 6%;
+    background: rgba(2, 6, 23, 0.98);
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+
+    /* Hidden by default */
+    transform: translateX(120%);
+    transition: 0s ease;
+  }
+
+  .nav a {
+    margin: 12px 0;
+    font-size: 18px;
+  }
+
+  .showMenu {
+    transform: translateX(0);
+  }
 }
