@@ -1,0 +1,35 @@
+.section {
+  padding: 155px 8% 90px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #38bdf8;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card i {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: #1e293b;
+}
