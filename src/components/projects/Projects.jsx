@@ -1,46 +1,41 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import AmazonPic from "../../images/Amazon.PNG";
-import SpotifyPic from "../../images/Spotify.PNG";
-import BubblePic from "../../images/Bubble.PNG";
-import WeatherPic from "../../images/weatherApp.PNG";
-import NotesAppPic from "../../images/noteApp.PNG";
-import CursorPic from "../../images/Cursor.PNG";
+
 
 const Projects = () => {
   const projects = [
     {
-      pic:{AmazonPic},
+      pic:"src/images/Amazon.PNG",
       title: "Amazon Clone",
       desc: "E-commerce UI clone focusing on responsive layout and clean design.",
       link:"https://github.com/mansoorkhogyani/Amazon-Clone"
     },
     {
-      pic:{SpotifyPic},
+      pic:"src/images/Spotify.PNG",
       title: "Spotify Clone",
       desc: "Music streaming interface built using HTML and CSS.",
       link:"https://github.com/mansoorkhogyani/Spotify-Clone"
     },
     {
-      pic:{BubblePic},
+      pic:"src/images/Bubble.PNG",
       title: "Bubble Game",
       desc: "Interactive JavaScript-based game with scoring system.",
       link:"https://github.com/mansoorkhogyani/Bubble-Game"
     },
     {
-      pic:{WeatherPic},
+      pic:"src/images/WeatherApp.PNG",
       title: "Weather App",
       desc: "Interactive JavaScript-based weather app with APIs concept and DOM",
       link:"https://github.com/mansoorkhogyani/weatherApp-JS"
     },
     {
-      pic:{NotesAppPic},
+      pic:"src/images/noteApp.PNG",
       title: "Notes App (React js)",
       desc: "A note app using React js.",
       link:"https://github.com/mansoorkhogyani/notesApp-react-Js"
     },
     {
-      pic:{CursorPic},
+      pic:"src/images/GitHub.jpg",
       title: "More Projects",
       desc: "Visit My GitHub Account To Explore More Projects.",
       link:"https://github.com/mansoorkhogyani"
